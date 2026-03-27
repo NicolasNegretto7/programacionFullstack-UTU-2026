@@ -1,3 +1,5 @@
+<!--el trabajo aun no esta terminado...-->
+
 -Los niveles estan separados en 3 carpetas con sus respectivo nivel.
 
 -cada index de prototipo esta guardado en sus respectivas carpetas y con el nombre de la pagina que se basa
