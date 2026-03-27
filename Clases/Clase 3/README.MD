@@ -7,3 +7,5 @@
 -la  verdad es que las paginas no son del todo totalmente iguales a tamaño que la pagina original pq es mucho tiempo que pierdo con eso, asi que simplemente meto lo esencial junto con lo que pide el nivel a poner.
 
 -tambien añadi pequeñas cosas que la pagina original que me baso no tiene solo para rellenar los requisitos del nivel
+
+-no preguntar sobre la pagina de homero en el nivel 3
