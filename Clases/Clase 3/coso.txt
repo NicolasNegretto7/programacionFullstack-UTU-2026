@@ -1,0 +1,19 @@
+Nivel 1:
+
+-la Pagina Prototipo de Crea esta hecha de forma bastante basica (header, nav, main y article's, etc.)
+a diferencia de la pagina original de crea que esta mas elaborada (main,script, montones de div, etc.)
+
+Nivel 2:
+
+-la pagina Prototipo EL PAIS esta basada en EL PAIS AMERICA, que tiene de destacado los div's, script's y iframe's, con un sidebar tambien.
+yo en el header solo utilice el detail como sidebar que solo tiene una lista y sin nav. luego, utilice el HEADER para meter el titulo y luego unos nav que se supone que son de ejemplo a la barra que tiene la pagina original.
+tambien utilice los article para cada noticia (se me olvido mencionar que estos article estan dentro del section que no esta mencionado en el boceto).
+
+-la pagina de PAGINA DE HOMERO esta formada principalmente por div's por cada gif dentro de la pagina.
+yo en el prototipo utilice article para cada uno de los gifs (de nuevo, se me olvido mencionar los sections) y añadi un form para que complemente lo del requisito del nivel 2 (usar 1 form)
+
+Nivel 3:
+
+-la pagina de Real Madrid esta formada por app's, div's script's.
+yo utilice un header (que no mencione en el boceto) donde de nuevo utilice el detail com sidebar con una lista, luego 2 imagenes del escudo y las 15 champions, luego nav's como lo hice en la pagina boceto de EL PAIS y luego un button que simula ser el boton acceder de la pagina principal.
+
