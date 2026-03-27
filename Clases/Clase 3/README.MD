@@ -8,4 +8,4 @@
 
 -tambien añadi pequeñas cosas que la pagina original que me baso no tiene solo para rellenar los requisitos del nivel
 
--no preguntar sobre la pagina de homero en el nivel 3
+-no preguntar sobre la pagina de homero
