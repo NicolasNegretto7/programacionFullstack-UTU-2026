@@ -3,6 +3,10 @@ Nivel 1:
 -la Pagina Prototipo de Crea esta hecha de forma bastante basica (header, nav, main y article's, etc.)
 a diferencia de la pagina original de crea que esta mas elaborada (main,script, montones de div, etc.)
 
+-
+
+-
+
 Nivel 2:
 
 -la pagina Prototipo EL PAIS esta basada en EL PAIS AMERICA, que tiene de destacado los div's, script's y iframe's, con un sidebar tambien.
@@ -12,6 +16,10 @@ tambien utilice los article para cada noticia (se me olvido mencionar que estos 
 -la pagina de PAGINA DE HOMERO esta formada principalmente por div's por cada gif dentro de la pagina.
 yo en el prototipo utilice article para cada uno de los gifs (de nuevo, se me olvido mencionar los sections) y añadi un form para que complemente lo del requisito del nivel 2 (usar 1 form)
 
+-
+
+-
+
 Nivel 3:
 
 -la pagina de Real Madrid esta formada por app's, div's script's.
@@ -19,3 +27,6 @@ yo utilice un header (que no mencione en el boceto) donde de nuevo utilice el de
 luego, hay un article principal q es la noticia principal que aparece el articulo principal de la pagina (el equipo se ejercita).
 luego, hay un div prinicipal que se encarga de ordenar las 3 noticias ("display: flex" alinea, el margin ordena y el gap para que haya una separacion entre noticias y no colisionen los textos) hay 3 noticias que estan creadas dentro de un article.
 y luego, un footer muy breve solamente con imagenes de los patrocionios del real.
+
+-la pagina de Github Principal esta repleta de div's, con representacion de un sidebar, header y footer.
+
