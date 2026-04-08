@@ -28,5 +28,5 @@ luego, hay un article principal q es la noticia principal que aparece el articul
 luego, hay un div prinicipal que se encarga de ordenar las 3 noticias ("display: flex" alinea, el margin ordena y el gap para que haya una separacion entre noticias y no colisionen los textos) hay 3 noticias que estan creadas dentro de un article.
 y luego, un footer muy breve solamente con imagenes de los patrocionios del real.
 
--la pagina de Github Principal esta repleta de div's, con representacion de un sidebar, header y footer.
+-
 
