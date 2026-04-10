@@ -1,4 +1,4 @@
-header {
+.cabezaso-de-messi-en-champions {
     background-color: #333;
     color: white;
     padding: 20px;
@@ -7,26 +7,39 @@ header {
 }
 
 body {
+   background-color: rgb(80, 80, 80);
+}
+
+main {
     background-color: darkgrey;
     text-align: center;
 }
 
-p {
-    color: aliceblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.titulo {
+    color: whitesmoke;
+    background-color: #757575;
+
 }
 
-h1 {
-    color: rgb(77, 39, 39);
-    background-color: rgb(117, 110, 99);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.top-3 {
+    color: whitesmoke;
+    background-color: #757575;
 }
 
-h2 {
-    font-family: 'Courier New', Courier, monospace;
-    color: gray;
+.section-1 {
+    background-color: rgb(199, 199, 199);
+
 }
 
-footer {
-    text-align: left;
+.section-2 {
+    background-color: rgb(105, 105, 105);
+}
+
+.section-3 {
+    background-color: rgb(68, 68, 68);
+    
+}
+
+.messi {
+
 }
