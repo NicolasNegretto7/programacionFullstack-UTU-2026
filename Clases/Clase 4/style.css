@@ -7,7 +7,8 @@
 }
 
 body {
-   background-color: rgb(80, 80, 80);
+     background-color: rgb(80, 80, 80);
+
 }
 
 main {
@@ -18,6 +19,7 @@ main {
 .titulo {
     color: whitesmoke;
     background-color: #757575;
+    padding: 5px;
 
 }
 
@@ -28,18 +30,21 @@ main {
 
 .section-1 {
     background-color: rgb(199, 199, 199);
+    padding: 5px;
 
 }
 
 .section-2 {
     background-color: rgb(105, 105, 105);
+    padding: 5px;
 }
 
 .section-3 {
     background-color: rgb(68, 68, 68);
+    padding: 5px;
     
 }
 
 .messi {
-
+    
 }
