@@ -17,9 +17,19 @@ main {
 }
 
 .titulo {
-    color: whitesmoke;
-    background-color: #757575;
+    background-color: #505050;
     padding: 5px;
+    /* (esto lo saque de css portal btw) */
+    box-shadow: inset 0px 20px 25px -10px rgb(0, 0, 0);
+    /* esto le da un contraste al color rgb */
+    border-radius: 90px;
+    /* esto cambia el radio del borde */
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    /* color del h1 cominado de azul a rojo */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*para que sea al texto y no el fondo en si */
+    
 
 }
 
@@ -29,7 +39,7 @@ main {
 }
 
 .section-1 {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(139, 139, 139);
     padding: 5px;
 
 }
@@ -46,5 +56,7 @@ main {
 }
 
 .messi {
+background: linear-gradient(#ff0000, #D712C5);
+/* fondo super bonito */
     
 }
