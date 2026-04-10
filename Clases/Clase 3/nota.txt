@@ -1,0 +1,7 @@
+6
+
+Se presentan problemas en la detección de etiquetas principales como main y section. También faltó analizar más páginas web según su nivel de complejidad.
+
+Hay confusión en algunos dibujos. Recordá que las páginas web se construyen a partir de contenedores, como cajas que se organizan unas encima de otras y otras dentro de distintas estructuras.
+
+Es importante reforzar la comprensión de esta lógica de bloques para mejorar la interpretación de las páginas.
