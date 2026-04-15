@@ -41,25 +41,64 @@ body {
 /* nivel  2*/
 
 .seccion-2 {
+    gap: 10px;
     
 }
 
 .caja-1 {
-    padding: 2%;
+    padding: 10px;
     width: 30%;
     border: 2px solid rgb(255, 255, 255);
     background-color: white;
     position: relative;
     font-size: 20px;
+    border-left: 6px solid rgb(38, 0, 255);
 
 }
 
 .textitoazul-1 {
-display: flex;
+    width: 15%;
     color: white;
-    position: absolute;
     border: 2px solid rgb(255, 255, 255);
     background-color: rgb(38, 0, 255);
     
+
+}
+
+.caja-2 {
+    padding: 10px;
+    width: 30%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    position: relative;
+    font-size: 20px;
+    border-left: 6px solid rgb(38, 0, 255);
+}
+
+.textitoazul-2 {
+    width: 15%;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(38, 0, 255);
+
+
+}
+
+.caja-3 {
+    padding: 10px;
+    width: 30%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    position: relative;
+    font-size: 20px;
+    border-left: 6px solid rgb(38, 0, 255);
+}
+
+.textitoazul-3 {
+    width: 15%;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(38, 0, 255);
+
 
 }
