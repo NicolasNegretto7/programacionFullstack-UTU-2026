@@ -41,22 +41,25 @@ body {
 /* nivel  2*/
 
 .seccion-2 {
-    margin: 20px auto;
+    
 }
 
 .caja-1 {
-    padding: 5%;
-    width: 8%;
+    padding: 2%;
+    width: 30%;
     border: 2px solid rgb(255, 255, 255);
     background-color: white;
     position: relative;
     font-size: 20px;
-    
 
 }
 
 .textitoazul-1 {
+display: flex;
+    color: white;
     position: absolute;
-    border:
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(38, 0, 255);
+    
 
 }
