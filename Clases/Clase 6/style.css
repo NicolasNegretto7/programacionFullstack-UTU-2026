@@ -1,0 +1,47 @@
+.seccion1 {
+    display: flex;
+    gap: 10px;
+}
+
+.aceptar {
+    border: 2px solid;
+    border-radius: 10px;
+    width: 8%;
+    padding: 35px;
+    background-color: rgb(0, 209, 0);
+    color: white;
+}
+
+.aceptar:hover {
+    background-color: green;
+}
+
+.cancelar {
+    border: 2px solid;
+    border-radius: 10px;
+    width: 8%;
+    padding: 35px;
+    background-color: rgb(224, 224, 59);
+    color: white;
+
+}
+
+.cancelar:hover {
+   background-color: rgb(90, 92, 0);
+}
+
+
+.eliminar {
+
+    border: 2px solid;
+    border-radius: 10px;
+    width: 8%;
+    padding: 35px;
+    background-color: rgb(224, 59, 59);
+    color: white;
+}
+
+.eliminar:hover {
+    background-color: rgb(133, 0, 0);
+}
+
