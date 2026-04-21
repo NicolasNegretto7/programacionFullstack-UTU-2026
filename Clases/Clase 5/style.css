@@ -127,3 +127,54 @@ body {
     border: 2px solid rgb(0, 0, 0);
        padding: 8%;
 }
+
+.nivel3-wrapper {
+  margin-top: 20px;
+  border: 2px solid orange;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 500px;
+}
+
+.section2 {
+  display: flex;
+  gap: 10px;
+}
+
+.seccion-3{
+    margin-top: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  width: 500px;
+  background-color: #000000;
+
+}
+
+.estudiantes {
+  background-color: #1e2a3a;
+  border-radius: 10px;
+  padding: 20px 30px;
+  color: white;
+  text-align: center;
+  flex: 1;
+}
+
+.cursos {
+background-color: #860000;
+  border-radius: 10px;
+  padding: 20px 30px;
+  color: white;
+  text-align: center;
+  flex: 1;
+
+}
+
+.aprobados {
+background-color: #1e2a3a;
+  border-radius: 10px;
+  padding: 20px 30px;
+  color: white;
+  text-align: center;
+  flex: 1;
+
+}
