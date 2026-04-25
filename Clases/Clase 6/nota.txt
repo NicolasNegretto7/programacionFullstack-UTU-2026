@@ -1,0 +1,5 @@
+4
+
+Falto los 'x' y 'tick' de correcto, y posicionarlos en la esquina, importante en este ejercicio
+
+Repasar los videos de Position
