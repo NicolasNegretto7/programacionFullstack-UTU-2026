@@ -4,29 +4,223 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
 
   <body>
- <div class="container" style="background-color:aliceblue">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<header>
+ <div class="container text-center" style="background-color: darkgrey; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(18, 33, 76); font-size: 30px; height: 100px; padding-top: 20px; text-decoration: underline;">
  Dokkan Battle; Super Epic Card Game
+</div>
+</header>
+
+<div class="container">
+ <div class="row" style="height: 140px; background-color: aliceblue;">
+    <div class="col text-center">Intentos:</div>
+    <div class="col-body text-center">0</div>
+    <div class="col text-center">Pares Contados:</div>
+    <div class="col-body text-center">0</div>
+    <div class="col text-center">Par Encontrado:</div>
+    <div class="col-body text-center">0</div>
+
+  </div>
 </div>
 
 <div class="container">
+  <div class="row" style="height: 70px; background-color: aliceblue;">
+    <div class="col text-center">
+    <button type="button" class="btn" style="color: green;">Empezar</button>
+    <button type="button" class="btn">Reiniciar</button>
+    <button type="button" class="btn" style="color: red" >Terminar</button>
+    </div>
+ </div>
+</div>
+
+<div class="container" style="background-color: rgb(255, 209, 209);">
     <div class="row">
+
         <div class="col">
-          <div class="card" style="width: 18rem;">
+          <div class="card" data-card="Goku Ssj Blue Kaioken">
             <img src="images (2).jpg" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"¡Kaioken x10!"</p>
+            </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card" style="width: 18rem;">
+          <div class="card" data-card="Goku Ssj Blue Kaioken">
             <img src="images (2).jpg" class="card-img-top">
+        </div>
+      </div>
+
+      <div class="col">
+          <div class="card" data-card="Ssj Gogeta">
+            <img src="images (3).jpg" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"No necesito un Nombre para Eliminarte..."</p>
+            </div>
+        </div>
+      </div>
+
+        <div class="col">
+          <div class="card" data-card="Ssj Gogeta">
+            <img src="images (3).jpg" class="card-img-top">
+        </div>
+      </div>
+
+      <div class="col">
+          <div class="card" data-card="Goku Black Ssj Rose">
+            <img src="t8b4ug5wt1n81.jpg" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"Observa este Color... No te parece esplendido?!"</p>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+<div class="container" style="background-color: rgb(209, 234, 255);">
+    <div class="row">
+
+      <div class="col">
+        <div class="card" data-card="Goku Black Ssj Rose">
+            <img src="t8b4ug5wt1n81.jpg" class="card-img-top">
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-card="Majin Vegeta">
+            <img src="descarga.gif" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"La forma de derrotarte... Es convertirte en Polvo!"</p>
+            </div>
           </div>
         </div>
 
+        <div class="col">
+          <div class="card" data-card="Majin Vegeta">
+            <img src="descarga.gif" class="card-img-top">
+            </div>
+          </div>
+
+          <div class="col">
+          <div class="card" data-card="Bardock - Ultima Esperanza Saiyajin!">
+            <img src="12b72768e8c393a556e4ac10b7a44432.gif" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"¡Por el orgullo de todos los saiyajin... TE VAMOS A DAR UNA PALIZA!"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-card="Bardock - Ultima Esperanza Saiyajin!">
+            <img src="12b72768e8c393a556e4ac10b7a44432.gif" class="card-img-top">
+            </div>
+          </div>
+    </div>
+</div>
+
+
+
+
+<div class="container" style="background-color: rgb(244, 255, 209);">
+    <div class="row">
+
+      <div class="col">
+          <div class="card" data-card="Gohan Ultimate">
+            <img src="static-assets-upload8374789218953872513.gif" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"No es asi... Eh venido a Matarte..."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-card="Gohan Ultimate">
+            <img src="static-assets-upload8374789218953872513.gif" class="card-img-top">
+            </div>
+          </div>
+
+          <div class="col">
+          <div class="card" data-card="Gogeta Ssj4 GT">
+            <img src="rate-a-unit-day-13-lr-phy-ssj4-gogeta-v0-m5bl7gssknja1.jpg" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"No soy Goku ni Vegeta, Soy el Encargado de Acabar Contigo!"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-card="Gogeta Ssj4 GT">
+            <img src="rate-a-unit-day-13-lr-phy-ssj4-gogeta-v0-m5bl7gssknja1.jpg" class="card-img-top">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-card="Turles">
+            <img src="rate-a-unit-day-79-phy-turles-v0-y109lbtbxypd1 (1).jpg" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"¡Te mostraré el verdadero poder de un saiyajin!"</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" style="background-color: rgb(209, 255, 214);">
+    <div class="row">
+      <div class="col">
+          <div class="card" data-card="Turles">
+            <img src="rate-a-unit-day-79-phy-turles-v0-y109lbtbxypd1 (1).jpg" class="card-img-top">
+          </div>
+      </div>
+
+      <div class="col">
+          <div class="card" data-card="Bills - Dios de la Destruccion">
+            <img src="df7ha15-80f61d1c-7632-4897-9803-841344e1ed96.jpg" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"Antes de la creación viene la destrucción..."</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-card="Bills - Dios de la Destruccion">
+            <img src="df7ha15-80f61d1c-7632-4897-9803-841344e1ed96.jpg" class="card-img-top">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-card="Vegito Ssj Blue">
+            <img src="all-out-final-battle-super-saiyan-god-ss-vegito.gif" class="card-img-top">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"¿Cuál es el problema? ¿No puedes seguirme el ritmo?"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" data-card="Vegito Ssj Blue">
+            <img src="all-out-final-battle-super-saiyan-god-ss-vegito.gif" class="card-img-top">
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="background-color: rgba(255, 209, 209, 0.271); padding-top: 20px;">
+          <div class="card mx-auto" data-card="Carta Extra" style="width: 18rem;">
+            <img src="5191B3bRS8L._AC_UF894,1000_QL80_.jpg" class="card-img-bottom">
+            <div class="card-body" style="font-family: fantasy;">
+              <p>"Signo De Interogacion."</p>
+           </div>
+          </div>
+ </div>
 
   </body>
-
 </html>

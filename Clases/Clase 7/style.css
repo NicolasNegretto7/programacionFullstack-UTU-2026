@@ -1,3 +1,16 @@
-.card {
-    width: 900px;
+.card-img-top {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;  
+}
+
+.card-img-bottom {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;  
+}
+
+body {
+  background-image: url(fondo.jpg);
+  background-size: cover;
 }
