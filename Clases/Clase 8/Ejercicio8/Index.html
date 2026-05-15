@@ -116,7 +116,6 @@
     });
     document.addEventListener('click', () => dropdown.classList.remove('open'));
 
-    /* ─── Category selection ────────────────────────────────── */
     document.querySelectorAll('.drop-item').forEach(item => {
       item.addEventListener('click', () => {
         selectCategory(item.dataset.cat);
