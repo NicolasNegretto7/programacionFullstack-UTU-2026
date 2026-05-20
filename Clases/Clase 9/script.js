@@ -12,14 +12,14 @@
     alert("el resultado es: " + suma);
 
     let edad = prompt("Dime tu edad");
-    if (Number(edad) < 17) {
+    if (edad < 17) {
         alert("eres menor de edad");
     } else {
     alert("eres mayor de edad");
     }
 
     let numeroparoimpar = prompt("Dame un numero");
-    if (Number(numeroparoimpar) % 2 === 0) {
+    if (numeroparoimpar % 2 === 0) {
         alert("su " + numeroparoimpar + " es par")
     } else {
          alert("su " + numeroparoimpar + " es impar")
@@ -29,9 +29,13 @@
     let numero22 = prompt("Dame numero 2");
     let numero33 = prompt("Dame numero 3");
 
-    if (Number(numero11) > Number(numero22) Number(numero33)) {
-        alert("su " + numero11 + " es mayor que los demas")
+    if (numero11 > numero22 && numero33) {
+        alert("tu " + numero11 + " es mayor")
+
+    } else if(numero22 > numero33 && numero11) {
+        alert("tu " + numero22 + " es mayor")
     } else {
-        alert("su " + numero11 + " es menor que los demas")
+        alert("tu " + numero33 + " es mayor")
     }
 }
+
