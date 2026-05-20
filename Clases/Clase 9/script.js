@@ -78,5 +78,10 @@
         sumaepica += numerowhile;
     }
     alert("la suma total es " + sumaepica)
+
+    let numerocalcu1 = parseint(prompt("ingrese numero 1"));
+    let numerocalcu2 = parseint(prompt("ingrese numero 2"));
+    let resultadofinal;
+    
 }
 
