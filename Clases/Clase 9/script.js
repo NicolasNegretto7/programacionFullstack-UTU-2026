@@ -76,21 +76,27 @@
     while (numerowhile !== 0) {
         numerowhile = parseInt(prompt("Ingrese un numero hasta el 0"));
         sumaepica += numerowhile;
+    } {
+    alert("la suma total es " + sumaepica); 
     }
-    alert("la suma total es " + sumaepica);
+    
 
-    let numerocalcu1 = parseint(prompt("ingrese numero 1"));
-    let numerocalcu2 = parseint(prompt("ingrese numero 2"));
-    let op = prompt("elige si (+, -, %)");
+    let numerocalcu1 = parseInt(prompt("ingrese numero 1"));
+    let numerocalcu2 = parseInt(prompt("ingrese numero 2"));
+    let op = prompt("elige si (sumar +, restar -, multiplicar *)");
 
     switch (op) {
         case "+":
             op = (numerocalcu1 + numerocalcu2);
             break;
+        case "-":
+            op = (numerocalcu1 - numerocalcu2);
+        case "*":
+            op = (numerocalcu1 * numerocalcu2);
     }
 
     if (op !== undefined) {
-        alert("resultado" + op);
+        alert("resultado " + op);
     }
 
     
