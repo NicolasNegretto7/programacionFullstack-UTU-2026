@@ -99,6 +99,24 @@
         alert("resultado " + op);
     }
 
+    let opcion = prompt("Bienvenido al menu, elige 1 para saludar, elige 2 para mostrar fecha o elige 3 para un numero random");
+    
+    switch (opcion) {
+        case "1":
+        alert("hola " + nombre);
+        break;
+
+        case "2":
+            let fecha = new Date();
+            alert("la fecha de hoy es: " + fecha.toLocaleDateString());
+        break;
+
+        case "3":
+            let random = Math.floor(Math.random() * 100) + 1;
+            alert("tu numero random es: " + random);
+            break;
+    }
+
     
     
 }
