@@ -1,0 +1,23 @@
+img {
+    display: flex;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+#InputEpico {
+    display: flex;
+}
+
+#BotonEpico3 {
+    display: flex;
+}
+
+.Azul {
+    color: blue;
+}
+
+.ModoOscuro {
+    background-color: black;
+    color: white;
+}
