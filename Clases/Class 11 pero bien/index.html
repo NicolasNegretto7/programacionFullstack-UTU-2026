@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Ejercicio 11 B</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Bienvenido al Creador de Galerias</h1>
+</header>
+    <p>Total</p>
+    <p id="Total">0</p>
+    <p>Favoritos</p>
+    <p id="Favoritos">0</p>
+    <p>No Favoritos</p>
+    <p id="NoFavoritos">0</p>
+
+    <div>
+    <p>Elige el nombre que le quiera poner a su imagen, junto a su url...</p>
+    <form>
+        <label>Titulo de tu imagen:</label> <br><br>
+        <input type="text" id="inputNombre" value="Sergio Ramos"><br><br>
+        <label for="URL">Ingrese URL de la imagen:</label><br><br>
+        <input type="text" id="inputURL" value="https://publish.realmadrid.com/content/dam/portals/realmadrid-com/es-es/sports/football/legendary-players/sergio-ramos-garcia/assets/1330734572556.jpg"> <br><br>
+        
+        <button type="button" id="CrearImagen" onclick="CrearNuevaImagen()">Confirmar</button><br><br>
+
+        <button type="button"  id="BorrarGaleria" onclick="BorrarGaleria()">Borrar Galeria</button>
+        <button type="button" id="MostrarTodas" onclick="MostrarTodas()">Mostrar Todas</button>
+        <button type="button" id="MostrarFavoritos" onclick="MostrarFavoritos()">Mostrar Favoritas</button>
+        <button type="button" id="MostrarNoFavoritos" onclick="MostrarNoFavoritos()">Mostrar No Favoritas</button>
+
+        <div id="Galeria"></div>
+    </form>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
